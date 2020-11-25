@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+<group ns="01">
+    <node pkg="remove_stereo_distort"
+          type="remove_stereo_distort_node"
+          name="rm_stereo_distort"
+          output="screen"
+          cwd="node">
+    </node>
+</group>
+</launch>
